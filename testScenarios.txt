@@ -1,0 +1,12 @@
+Dodawanie zasobów.
+
+1. Pobieramy listê zasobów.
+2. Genereujemy nowy zasób, którego nie ma na liœcie.
+3. Sprawdzamy czy wys³any zasób znajduje siê na liœcie.
+
+Usuwanie zasobów.
+
+1. Pobieramy listê zasobów.
+2. Usuwamy po¿¹dany zasób.
+3. Sprawdzamy listê czy zasób zosta³ usuniêty.
+

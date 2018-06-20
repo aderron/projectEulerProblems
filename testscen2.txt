@@ -1,0 +1,22 @@
+(POZYTYWNE)
+
+Dodawanie wartoœci
+
+1. Sprawdzamy czy wartoœæ znajduje siê na liœcie.
+2. Dodajemy wartoœæ do listy.
+3. Sprawdzamy czy wys³ana wartoœæ znalaz³a siê na liœcie.
+
+Dodawanie aktualizacji
+
+1. Sprawdzamy czy wartoœæ znajduje siê na liœcie.
+2. Aktualizujemy wartoœæ.
+3. Sprawdzamy czy wys³ana wartoœæ znalaz³a siê na liœcie.
+4. Porównujemy z wartoœci¹ przed aktualizacj¹.
+
+(NEGATYWNE)
+ 
+1. 
+
+nie podales numeru pesel przy update
+
+brak numeru pesel
