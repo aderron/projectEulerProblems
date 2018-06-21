@@ -1,0 +1,77 @@
+
+>>>(CREATE - POZYTYWNE)<<<
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Dodajemy osobê wraz z danymi.
+3. Sprawdzamy czy osoba znalaz³a siê na liœcie.
+
+
+>>>(CREATE - NEGATYWNE)<<<
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Dodajemy osobê z numerem pesel i ujemn¹ wartoœci¹ wieku.
+3. Oczekujemy b³êdu.
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Dodajemy osobê bez podawania numeru pesel i wieku.
+3. Oczekujemy b³êdu.
+
+-------------------------
+
+>>>(READ - POZYTYWNE)<<<
+
+1. Wysy³amy zapytanie o osobê, która by³a wczeœniej dodana.
+2. Czekamy na kod 200.
+
+
+>>>(READ - NEGATYWNE)<<<
+
+1. Wysy³amy zapytanie o osobê, która nie by³a wczeœniej dodana.
+2. Oczekujemy b³êdu.
+
+-------------------------
+
+>>>(UPDATE - POZYTYWNE)<<<
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wysy³amy zapytanie o zmianê danych (wiek).
+3. Porównujemy dane z wczeœniejsz¹ wartoœci¹.
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wysy³amy zapytanie o zmianê danych (pesel).
+3. Porównujemy dane z wczeœniejsz¹ wartoœci¹.
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wysy³amy zapytanie o zmianê danych (imiê).
+3. Porównujemy dane z wczeœniejsz¹ wartoœci¹.
+
+
+>>>(UPDATE - NEGATYWNE)<<<
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wysy³amy zapytanie o zmianê imienia osoby, która nie istnieje na liœcie.
+3. Oczekujemy b³êdu.
+
+1. Sprawdzamy czy dana osoba i jej dane znajduj¹ siê na liœcie.
+2. Wysy³amy zapytanie o zmianê wieku osoby, która nie istnieje na liœcie.
+3. Oczekujemy b³êdu.
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wysy³amy zapytanie o zmianê danych (wiek, pesel), nie podaj¹c imienia.
+3. Oczekujemy b³êdu.
+
+-------------------------
+
+>>>(DELETE - POZYTYWNE)<<<
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wys³anie zapytania o skasowanie danej osoby.
+3. Czekamy na kod 200.
+
+
+>>>(DELETE - NEGATYWNE)<<<
+
+1. Sprawdzamy czy dana osoba i jej dane (wiek, pesel) znajduj¹ siê na liœcie.
+2. Wys³anie zapytania o skasowanie osoby, która nie istnieje.
+3. Oczekujemy b³êdu.
+
