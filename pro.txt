@@ -1,0 +1,29 @@
+5.1.1 Organizacja testów a ich niezale¿noœæ
+
+Skutecznoœæ wykrywania usterek w testach jest podniesiona,
+poprzez zaanga¿owanie niezale¿nych testerów.
+
+W du¿ych projektach przy wytwarzaniu aplikacji krytycznych, dobrze mieæ kilka poziomów testów, 
+które powinny byæ wykonywane przez niezale¿nych testerów.
+
+korzysci z niezaleznosci:
+
+testerzy s¹ bardziej obiektywni, jesli chodzi o usterki ni¿ twórcy kodu
+weryfikacja zalo¿eñ podczas specyfikacji i implementacji systemu (testerzy)
+
+wady niezale¿noœci:
+izolacja od zespo³u deweloperskiego (testerzy)
+utrata odpowiedzialnoœci za jakoœæ (programisci)
+niezalezni testerzy postrzegani lub obwiniani za opóŸnienia w dostarczeniu produktu
+
+5.1.2 Zadania lidera testów oraz testera
+
+lider testów:
+
+- koordynacja strategii oraz planu testów z kierownikami projektu
+- planowanie testów (cele testów i ryzyko, szacowanie czasu, kosztów testowania, 
+definiowanie poziomów testów, cykli testowych, zarz¹dzanie incydentami)
+- 
+
+5.2.1
+
