@@ -1,3 +1,3 @@
 # projectEulerProblems
 
-Repo for solver problems
+Repo for solved problems
